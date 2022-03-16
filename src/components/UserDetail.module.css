@@ -1,0 +1,27 @@
+.detail {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.detail-img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.detail-name {
+  font-size: 1.35rem;
+}
+
+.detail-time {
+  font-size: 1.35rem;
+  color: var(--grayish-blue);
+}
+
+.detail-you {
+  margin-left: -1rem;
+  padding: 0.25rem 0.45rem;
+  color: var(--white);
+  background-color: var(--moderate-blue);
+  border-radius: 3px;
+}

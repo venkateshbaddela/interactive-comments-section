@@ -1,0 +1,35 @@
+.addCmt {
+  min-height: 13rem;
+  padding: 1.8rem;
+  margin-top: 1.5rem;
+  background-color: var(--white);
+  border-radius: 5px;
+  align-items: start;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.addCmt-img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.addCmt-btn {
+  padding: 0.8rem 1.7rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .addCmt {
+    flex-direction: column;
+    position: relative;
+  }
+  .addCmt-img {
+    order: 2;
+  }
+
+  .addCmt-btn {
+    position: absolute;
+    bottom: 1.58rem;
+    right: 1.8rem;
+  }
+}

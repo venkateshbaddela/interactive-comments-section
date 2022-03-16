@@ -1,0 +1,42 @@
+.vote {
+  height: 8.5rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  background-color: var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vote-btns {
+  padding: 0.1rem;
+  display: flex;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.vote-btns svg {
+  transform: scale(1.25);
+}
+.vote-btns:hover path {
+  fill: var(--moderate-blue);
+}
+
+.score {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--moderate-blue);
+}
+
+@media only screen and (max-width: 550px) {
+  .vote {
+    height: 100%;
+    width: 8.5rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    white-space: nowrap;
+  }
+}

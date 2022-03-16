@@ -1,0 +1,24 @@
+.form {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.form-input {
+  width: 100%;
+  min-height: 9rem;
+  padding: 1rem;
+  border-radius: 5px;
+  resize: none;
+  line-height: 1.5;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.35rem;
+  color: var(--grayish-blue);
+  outline: none;
+  overflow: hidden;
+}
+
+.form-input:focus {
+  border-color: var(--moderate-blue);
+}
