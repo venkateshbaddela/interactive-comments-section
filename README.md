@@ -26,7 +26,8 @@ Your users should be able to:
 
 ### Screenshot
 
-![](screenshot/screenshot.png)
+![screenshot](https://user-images.githubusercontent.com/84497133/158659820-f8eecab2-428b-413e-825c-14826c298a65.png)
+
 
 ### Links
 
