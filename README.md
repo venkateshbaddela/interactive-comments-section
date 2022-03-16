@@ -31,8 +31,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [https://github.com/venkateshbaddela/interactive-comments-section]
+- Live Site URL: [https://venkateshbaddela.github.io/interactive-comments-section/]
 
 ### Built with
 
